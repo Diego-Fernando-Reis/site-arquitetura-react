@@ -1,6 +1,6 @@
 import React from "react";
 
-function Sobre() {
+function Sobre(props) {
     return (
         <>
             <div className="header">

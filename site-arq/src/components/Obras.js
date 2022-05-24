@@ -1,6 +1,6 @@
 import React from "react";
 
-function Obras() {
+function Obras(props) {
     return (
         <>
             <div className="header">

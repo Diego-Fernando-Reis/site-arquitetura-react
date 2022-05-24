@@ -1,6 +1,6 @@
 import React from "react";
 
-function Contato() {
+function Contato(props) {
     return (
         <>
             <div className="header">
@@ -11,8 +11,8 @@ function Contato() {
             </div>
             <div className="formulario">
                 <form>
-                    <input />
-                    <input />
+                    <input className="usuario" placeholder="Insira seu Nome: "/>
+                    <input className="email" placeholder="Insira seu Email: "/>
                     <button />
                 </form>
             </div>
